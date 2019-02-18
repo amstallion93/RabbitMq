@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "0bef621c-d9ee-49ad-b161-06385b993631",
+		"name": "RabbitMq",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add Message to Queue Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"supplierId\":\"100002\",\n \"supplierName\":\"test2\",\t\n \"supplierUrl\":\"www.g.com\"\n}"
+				},
+				"url": "http://localhost:8080/userservice/add"
+			},
+			"response": []
+		}
+	]
+}

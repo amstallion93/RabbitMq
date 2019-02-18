@@ -1,0 +1,8 @@
+com\training\MessageListener.class
+com\training\MessageSender.class
+com\training\dto\UserDetails.class
+com\training\MsgqApplication.class
+com\training\ServletInitializer.class
+com\training\UserService.class
+com\training\util\ApplicationConstant.class
+com\training\config\ApplicationConfigReader.class
